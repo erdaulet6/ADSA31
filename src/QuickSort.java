@@ -6,7 +6,7 @@ public class QuickSort {
         quickSort(x, 0, x.length - 1);
     }
 
-    private void quickSort(int[] x, int start, int end) {
+    private void quickSort(int[] x, int start, int end){
         if (start < end) {
             int pi = partition(x, start, end);
             quickSort(x, start, pi - 1);
